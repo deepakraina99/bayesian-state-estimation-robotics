@@ -1,5 +1,5 @@
 
-# Bayesian State Estimation of an underwater robot (agent) using Observations
+# Bayesian State Estimation of an underwater robot (agent) using observations
 
 This problem concerns tracking an agent (an underwater robot) exploring a lake. The robot is submerged at a particular depth and not visible on the surface. Our goal is to estimate the agent’s movement via an immersed acoustic receiver in the lake.
 
@@ -11,7 +11,7 @@ For more info, please refer this [assignment](https://github.com/deepakraina99/b
 #### Syntax:
 
  ```sh
-python run prob inf.py int grid size bool DoFiltering bool DoPrediction bool DoFilteringSingleObs bool DoSmoothing bool DoMostLikelyPath 
+python run_prob_inf.py int grid size bool DoFiltering bool DoPrediction bool DoFilteringSingleObs bool DoSmoothing bool DoMostLikelyPath 
 ```
 *For example*, to run all the inference tasks on 5 × 5 grid, use the following syntax:
 ```sh
