@@ -15,5 +15,5 @@ python run_prob_inf.py int grid size bool DoFiltering bool DoPrediction bool DoF
 ```
 *For example*, to run all the inference tasks on 5 × 5 grid, use the following syntax:
 ```sh
-python run prob inf.py 5 1 1 1 1 1
+python run_prob_inf.py 5 1 1 1 1 1
 ```
